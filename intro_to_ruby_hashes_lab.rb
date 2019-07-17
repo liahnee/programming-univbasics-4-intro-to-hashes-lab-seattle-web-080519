@@ -5,23 +5,24 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  hash1[:key] = "value"
+  hash1={:key => "value"}
   return hash1
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  return hash[:name] = "Grace Hopper"
+  return hash = {:name => "Grace Hopper"}
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  return tag[:id]=2
+  return tag = { id: 2}
 end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  return  five[key] = value
+  five[key] = value
+  return five 
 end
 
 def read_from_hash(hash, key)
