@@ -21,7 +21,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  five[key] = value
+  five = {key => value}
   return five 
 end
 
