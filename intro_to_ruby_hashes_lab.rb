@@ -1,6 +1,6 @@
 def new_hash
   # return an empty hash
-  return []
+  return {}
 end
 
 def my_hash
@@ -27,7 +27,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  return hash[:key]
+  return hash[key]
 end
 
 def update_counting_hash(hash, key)
